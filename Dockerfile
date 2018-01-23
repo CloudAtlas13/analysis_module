@@ -13,4 +13,4 @@ RUN pip3 install --trusted-host pypi.python.org -r requirements.txt
 
 
 # Run app.py when the container launches
-CMD python3 capture.py --kafka-address=$KAFKA_ADDRESS
+CMD python3 analysis_module.py --kafka-address=$KAFKA_ADDRESS
