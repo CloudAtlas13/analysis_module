@@ -2,3 +2,4 @@ kafka
 tensorflow
 sklearn
 numpy
+scipy
